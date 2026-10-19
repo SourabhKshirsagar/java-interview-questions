@@ -50,7 +50,23 @@ The super keyword in Java is used to refer to the immediate parent class object 
 
 ## Q18. What is `final`?
 
-**Answer:** A `final` variable can't be reassigned (a final reference can still point to a mutable object). A `final` method can't be overridden. A `final` class can't be extended.
+**Answer:** final = Restriction
+
+Prevents reassignment, overriding, or inheritance, depending on usage.
+
+
+
+
+finally = Cleanup block
+
+Runs after the try/catch flow in normal execution, even when an exception occurs.
+
+
+
+
+finalize() = Legacy cleanup method
+
+An unreliable old Java mechanism that you should avoid.
 
 ## Q19. `final` vs `finally` vs `finalize`?
 
