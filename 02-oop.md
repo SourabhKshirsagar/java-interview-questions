@@ -19,7 +19,9 @@
 
 **Answer:**
 - An abstract class can hold state (fields), constructors, and any method type. A class can extend only one.
-- An interface defines a contract. Since Java 8 it can have `default` and `static` methods, and since 9 `private` methods. Its fields are implicitly constants. A class can implement many.
+- An interface is a template or contract: it says what a class must do.
+Methods are public by default. You don’t need to write public.
+Traditionally, methods have no body. They are implicitly public abstract.
 
 Use an abstract class for shared state and a partial implementation. Use an interface for a capability or contract.
 
