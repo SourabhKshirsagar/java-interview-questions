@@ -6,9 +6,8 @@
 
 **Answer:**
 - The String pool can safely share instances.
-- It is thread-safe.
-- The hash code can be cached, which makes it a good `HashMap` key.
-- It is safer for security-sensitive uses like class names, URLs, and file paths.
+- Immutable means once a String object is created, its content can never change. Java enforces this with a few design choices in the String class itself.
+- The class is final. Nobody can extend String and override its methods to sneak in mutation.
 
 ## Q27. What is the String pool?
 
