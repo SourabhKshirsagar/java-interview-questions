@@ -34,7 +34,9 @@ Use an abstract class for shared state and a partial implementation. Use an inte
 
 ## Q15. What is the diamond problem and how does Java handle it?
 
-**Answer:** Java doesn't allow multiple class inheritance. With interface default methods, if two interfaces provide the same default, the class must override it explicitly, and it can call one with `InterfaceA.super.method()`.
+**Answer:** In Java, the Diamond Problem is avoided in multiple inheritance by using interfaces instead of classes. When a class implements multiple interfaces that contain conflicting default methods, Java forces the class to override the conflicting method and explicitly resolve the ambiguity.”
+
+Example: If interfaces B and C both provide a default show() method, class D must override show() to specify which implementation to use.
 
 ## Q16. `this` vs `super`?
 
