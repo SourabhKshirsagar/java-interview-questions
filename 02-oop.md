@@ -40,7 +40,9 @@ Example: If interfaces B and C both provide a default show() method, class D mus
 
 ## Q16. `this` vs `super`?
 
-**Answer:** `this` refers to the current object, and `this(...)` calls another constructor in the same class. `super` refers to the parent, and `super(...)` calls the parent constructor. Either call must be the first statement in a constructor.
+**Answer:** The this keyword in Java is a reference variable that refers to the current object of a class. It is commonly used to distinguish instance variables from local variables when they have the same name.
+
+The super keyword in Java is used to refer to the immediate parent class object in an inheritance hierarchy. It allows a subclass to explicitly access parent class members when they are hidden or overridden
 
 ## Q17. Constructor chaining and the default constructor?
 
