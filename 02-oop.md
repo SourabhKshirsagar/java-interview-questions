@@ -5,10 +5,11 @@
 ## Q11. What are the four pillars of OOP?
 
 **Answer:**
-- **Encapsulation:** hide state behind methods.
+- **Encapsulation:** Encapsulation is the OOP principle of wrapping data (variables) and the methods that operate on that data into a single unit, a class, and restricting direct access to the data. We make the variables private and expose them through public methods, so the class controls how its data is read and modified.
+  
 - **Inheritance:** reuse and extend a parent class.
-- **Polymorphism:** one interface, many behaviors.
-- **Abstraction:** expose what an object does, not how.
+- **Polymorphism:** Polymorphism means “many forms.” It is the ability of the same method call to behave differently depending on the object it is used with. In Java it comes in two types: compile-time polymorphism (method overloading), where the method is chosen at compile time based on the parameters, and runtime polymorphism (method overriding), where a parent-type reference points to a child object and the JVM decides at runtime, based on the actual object, which version of the method to run.
+- **Abstraction:** Abstraction means hiding the implementation details and showing only the essential features. It focuses on what an object does rather than how. In Java we achieve it with abstract classes and interfaces..
 
 ## Q12. Overloading vs overriding?
 
