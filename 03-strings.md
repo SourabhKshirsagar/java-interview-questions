@@ -15,7 +15,7 @@
 
 ## Q28. `==` vs `equals()` for Strings?
 
-**Answer:** `==` compares references. `equals()` compares content. Always use `equals()` for content.
+**Answer:** == checks whether two references point to the same object (or whether two primitives have the same value), while equals() checks whether two objects are logically equal based on their content, as defined by the class.
 
 ```java
 String a = "hi", b = "hi", c = new String("hi");
